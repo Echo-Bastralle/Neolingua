@@ -175,7 +175,7 @@ div#cursos-contenido{
 	padding-left: 0%;
 }
 
-#horarios, #precios {
+p.horarios, p.precios {
 	font-size: 120%;
 	text-decoration: underline;
 }
