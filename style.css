@@ -34,10 +34,10 @@ Ubicamos el logo en la esquina superior izquierda mediante padding y float, le d
 img.logo{
 	padding-top: 1%;
 	padding-left: 2%;
-  padding-bottom: 0%;
-  float:left;
-  border-top-left-radius: 50%;	
-  border-top-right-radius: 50%;
+	padding-bottom: 0%;
+	float:left;
+	border-top-left-radius: 50%;	
+	border-top-right-radius: 50%;
 
 }
 
@@ -55,23 +55,23 @@ nav {
 }
 
 nav ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  background: #D3FFFF;
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	background: #D3FFFF;
 }
 
 nav li a {
-  color: black;
-  display: block;
-  text-decoration: none;
-  padding: .5em 1em;
+	color: black;
+	display: block;
+	text-decoration: none;
+	padding: .5em 1em;
 }
 
 
 nav li a:hover {
-  background: #C6E2C9;
-  color: white;
+	background: #C6E2C9;
+	color: white;
 }
 
 
@@ -81,9 +81,9 @@ Mediante el uso del flex, ubicamos los elementos del menú de tal forma que nos 
 */
 
 @media screen and (min-width: 480px) {
-  nav ul {
-    display: flex;
-    justify-content:flex-end;
+	nav ul {
+	display: flex;
+	justify-content:flex-end;
   }
 }
 
@@ -223,7 +223,7 @@ div.texto{
 }
 
 p.box{
-	background: #d9f4ff;
+	background: #d3ffff;
 	border: 1px solid #93c9ed;
 	border-radius: 2%;
 	padding: 10%;
@@ -242,21 +242,20 @@ Son atributos que utilzamos para utilzar una imagen de fondo
 */
 
 div.contenido-ingles{
-width: 98vw;
-height: 90vh;
-display: flex;
-
-justify-content: right;
-background: linear-gradient(to left, rgb(0 0 0 / .5),rgb(0 0 0 / .5)),url(mujer-ordenador.png);
-background-size: cover;
-background-position: center;
+	width: 98vw;
+	height: 90vh;
+	display: flex;
+	justify-content: right;
+	background: linear-gradient(to left, rgb(0 0 0 / .5),rgb(0 0 0 / .5)),url(mujer-ordenador.png);
+	background-size: cover;
+	background-position: center;
 }
 
 div.wrap-texto{
 	padding-top: 20%;
-color: #fff;
-text-align: center;
-width: 50%;
+	color: #fff;
+	text-align: center;
+	width: 50%;
 }
 
 
@@ -265,25 +264,24 @@ width: 50%;
 /*---------------------------------------------CURSO DE FRANCÉS------------------------------------------------------------------*/
 
 div.contenido-frances{
-width: 98vw;
-height: 90vh;
-display: flex;
-
-justify-content: left;
-background: linear-gradient(to left, rgb(0 0 0 / .5),rgb(0 0 0 / .5)),url(hombre-frente-a-ordenador.png);
-background-size: cover;
-background-position: center;
+	width: 98vw;
+	height: 90vh;
+	display: flex;
+	justify-content: left;
+	background: linear-gradient(to left, rgb(0 0 0 / .5),rgb(0 0 0 / .5)),url(hombre-frente-a-ordenador.png);
+	background-size: cover;
+	background-position: center;
 }
 
 div.wrap-texto{
 	padding-top: 20%;
-color: #fff;
-text-align: center;
-width: 50%;
+	color: #fff;
+	text-align: center;
+	width: 50%;
 }
 
 div.caja{
-float:left;
+	float:left;
 }
 
 /*---------------------------------------------FIN CURSO DE FRANCÉS------------------------------------------------------------------*/
@@ -292,25 +290,24 @@ float:left;
 /*---------------------------------------------CURSO DE ALEMÁN------------------------------------------------------------------*/
 
 div.contenido-aleman{
-width: 98vw;
-height: 90vh;
-display: flex;
-
-justify-content: right;
-background: linear-gradient(to left, rgb(0 0 0 / .5),rgb(0 0 0 / .5)),url(chica-estudiando.png);
-background-size: cover;
-background-position: center;
+	width: 98vw;
+	height: 90vh;
+	display: flex;
+	justify-content: right;
+	background: linear-gradient(to left, rgb(0 0 0 / .5),rgb(0 0 0 / .5)),url(chica-estudiando.png);
+	background-size: cover;
+	background-position: center;
 }
 
 div.wrap-texto{
 	padding-top: 20%;
-color: #fff;
-text-align: center;
-width: 50%;
+	color: #fff;
+	text-align: center;
+	width: 50%;
 }
 
 div.caja{
-float:left;
+	float:left;
 }
 
 /*---------------------------------------------FIN CURSO DE ALEMÁN------------------------------------------------------------------*/
@@ -427,7 +424,7 @@ Especificamos la fuente para el contenido del footer
 
 footer p {
 	font-family: 'Noto Serif', serif;
-  font-size: 50%;
+	font-size: 50%;
 }
 
 /*
