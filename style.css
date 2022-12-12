@@ -4,6 +4,10 @@
 # Si estoy en una fase de pruebas, trato de especificar que esa parte del código está PENDIENTE DE CATEGORIZAR (#PDC)
 */
 
+/*
+Importación de fuentes usadas en las páginas web : Open Sans y Noto Serif
+*/
+
 @import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap');
 
@@ -17,10 +21,15 @@
 
 /*
 El logo se sitúa en la esquina superior izquierda
+Color de fondo #D3FFFF
 */
 header{
 	background: #D3FFFF;
 }
+
+/*
+Ubicamos el logo en la esquina superior izquierda mediante padding y float, le damos un borde circular
+*/
 
 img.logo{
 	padding-top: 1%;
@@ -32,7 +41,10 @@ img.logo{
 
 }
 
-/*primero en el móvil (mobile first)*/
+/*
+primero en el móvil (mobile first)
+smoothing: https://developer.mozilla.org/en-US/docs/Web/CSS/font-smooth
+*/
 
 nav {
   padding-top: 3em;	
@@ -63,7 +75,10 @@ nav li a:hover {
 }
 
 
-/* @media-query */
+/* 
+@media-query 
+Mediante el uso del flex, ubicamos los elementos del menú de tal forma que nos quede en la esquina superior derecha
+*/
 
 @media screen and (min-width: 480px) {
   nav ul {
@@ -74,7 +89,7 @@ nav li a:hover {
 
 
 /*
-#PDC
+Función no implementada en la versión final
 */
 div.espacio{
 	clear: right;
@@ -218,6 +233,14 @@ p.box{
 
 /*---------------------------------------------CURSO DE INGLÉS------------------------------------------------------------------*/
 
+/*
+background: linear-gradient(to left, rgb(0 0 0 / .5),rgb(0 0 0 / .5)),url(mujer-ordenador.png);
+background-size: cover;
+background-position: center;
+
+Son atributos que utilzamos para utilzar una imagen de fondo
+*/
+
 div.contenido-ingles{
 width: 98vw;
 height: 90vh;
@@ -236,9 +259,6 @@ text-align: center;
 width: 50%;
 }
 
-div.niveles-cajas#niveles-ingles-c1{
-
-}
 
 /*---------------------------------------------FIN CURSO DE INGLÉS------------------------------------------------------------------*/
 
@@ -375,7 +395,8 @@ div.espacio {
 /*---------------------------------------------FOOTER------------------------------------------------------------------*/
 
 /*
-#PDC
+Ubicamos el footer, dependiendo de la página en cuestión, nos valemos de una clase o de un id anexo para que el margen con el contenido de la página
+sea apropiado
 */
 footer{
 
@@ -400,7 +421,7 @@ div.elemento{
 }
 
 /*
-#PDC
+Especificamos la fuente para el contenido del footer
 */
 
 footer p {
@@ -409,7 +430,7 @@ footer p {
 }
 
 /*
-#PDC
+Ubicamos los elementos del footer, adaptamos el tamaño del texto y quitamos la decoración del enlace
 */
 div.footer div { 
 	overflow: hidden; 
